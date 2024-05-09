@@ -1,4 +1,6 @@
-A HTML and CSS project.
+
+## Overview
+A HTML and CSS project.(qr_code component)
 I have created a mobile design.
 
 
@@ -8,7 +10,7 @@ I have created a mobile design.
 
 
 
-## What i learnt
+## What I learnt
 
 During the Development process i learnt CSS and HTML basics. The whole process was awesome.
 
