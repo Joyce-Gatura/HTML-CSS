@@ -1,0 +1,174 @@
+<!--index. html -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Google-Mini-Page</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  <div class="container">
+
+      <div class="googlelogo">
+          <img src="G-logo.png"
+      </div>
+
+      <div class="surthar">
+        <p>Ranesh <p>
+          <p>Suthar</p>
+      </div>
+      <div class="designer">
+        <p>Designer. Engineer</p>
+      </div>
+      <div class="handles">
+        <img src="fblogo.png" class="fblogo" alt="">
+        <img src="Xlogo.png" class="xlogo" alt="">
+        <img src="instalogo.jpg" class="instalogo" alt="">
+
+
+      </div>
+      <div>
+        <input type="text" class="addme" value=" Add me to search">
+      </div>
+
+  </div>
+</body>
+
+</html>
+
+
+
+
+
+
+/*style.css*/
+
+
+
+
+body{
+    background-color:#D8E5F6;
+    width: 100vw;
+    height: 100vh;
+}
+.container{
+    display: flex;
+    height: 400px;
+    width: 280px;
+    background-color:#EAF0F9;
+    align-content: center;
+    border-radius: 4ch;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    
+
+}
+.googlelogo{
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    margin-left: 110px;
+    width: 60px;
+    background-color: transparent;
+    
+
+
+    
+}
+.surthar{
+    display: flex;
+    flex-direction:row;
+    margin-top: -25px;
+    column-gap: 3px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    font-family:Roboto Condensed;
+    font-size: 24px;
+    
+    
+ }
+
+    
+
+
+ .designer{
+    margin-top:-2px;
+    position: absolute;
+    opacity:0.5;
+    font-size: small;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    font-family: Roboto;
+
+    
+ }
+ 
+
+ .handles{
+
+    display: flex;
+    flex-direction: row;
+    column-gap: 15px;
+    margin-top:55px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    
+
+
+    .fblogo{
+        width: 30px;
+        
+    }
+    .xlogo{
+        width: 30px;
+    }
+    .instalogo{
+        width: 30px;
+    }
+
+    }
+
+
+
+ .addme{
+    display: flex;
+    width:160px;
+    height:30px;
+    border-radius:4ch;
+    background-color: white;
+    text-align: center;
+    border-top: none;
+    border-left: none;
+    
+
+
+ }
+
+ [type="text"].addme{
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom: 50px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 2ch;
+    border-color:white;
+    opacity: 0.9;
+   
+ }
