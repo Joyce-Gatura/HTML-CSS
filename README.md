@@ -10,14 +10,15 @@ I have created a mobile design.
 
 
 
-
-## What I learnt
-
-During the Development process i learnt CSS and HTML basics. The whole process was awesome.
-
-
 ## Author 
 -Joyce Wambui
+
+
+
+
+
+
+
 
 
 ##  Acknowledgments
