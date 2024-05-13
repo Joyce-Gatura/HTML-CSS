@@ -35,7 +35,7 @@ and excellent advice throughout the development process.
 ![Google mini App](https://github.com/Joyce-Gatura/HTML-CSS/assets/160253116/1f6dea94-ddd6-442f-855f-51b4faa7a07e)
 
 
-## I used flex display
+##   Google mini App - I used flex display
 
 
 
