@@ -1,13 +1,10 @@
 
-## Overview
-A HTML and CSS project.(qr_code component)
-## 
-I have created a mobile design.
-
 
 
 ![my mobile design](https://github.com/Joyce-Gatura/HTML-CSS/assets/160253116/8be1aeef-de18-4d2c-a81a-4f7916f3c9cf)
 
+
+## QR code mobile design- i used HTML and CSS
 
 
 ## Author 
