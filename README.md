@@ -29,5 +29,24 @@ Joyce Wambui
 
 
 
+![Review site](https://github.com/Joyce-Gatura/HTML-CSS/assets/160253116/756db4fd-dfa9-42d2-be9e-e22ffa15db5f)
+
+
+
+
+
+![shopify com](https://github.com/Joyce-Gatura/HTML-CSS/assets/160253116/2fe3d64a-ba0c-4119-a31f-50db2a4837f2)
+
+
+
+
+
+
+
+
+
+
+![CSS Flexbox Cards](https://github.com/Joyce-Gatura/HTML-CSS/assets/160253116/85cc3552-6e99-4f63-b8bb-ea7e4287c075)
+
 
 
