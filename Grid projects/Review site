@@ -1,0 +1,292 @@
+<!--index.html-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cloud 9ne Feedback.com</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+
+
+        <div class="elizabeth">
+            <img src="elizasphoto.jpg" alt="">
+               <h1>Elizabeth Mtimba </h1>
+               <h2>Elizabeth @M</h2>
+              
+     <p> <b> I recieved a job offer mid-course, and the subjects a learned were current. If not more sore,in the company i joined, i honestly feel i got every penny's worth.</b> <br>In this chapter, the architecture of the whole project is analyzed. System analysis is the process of defining the architecture, components. Design is a method of studying a system by examining its component parts.</p>
+
+        </div>
+        <div class="mary">
+            <img src="maryphoto.jpg" alt="">
+            <h1>Mary warui</h1>
+            <h2>mary@warui</h2>
+            <P>  <b>The team was very supportive and kept me motivated.</b> <br> In this chapter, the architecture of the whole project is analyzed. System analysis is the </P>
+            
+        </div>
+        <div class="sam">
+            <img src="samphoto.png" alt="">
+            <h1>Samson njai</h1>
+            <h2>Sam@njai</h2>
+          <p> <b> An overall wonderful and rewardind expirience.</b> <br>In this chapter, the architecture of the whole project is analyzed. System analysis is the process </p>
+
+        </div>
+        <div class="joy">
+            <img src="joyphoto.jpg" alt="">
+            <h1>Joyce gatura</h1>
+            <h2>Joyce@gatura</h2>
+            <p> <b> Awesome teaching support from TAs who did the bootcamp themselves. Getting giudance from them and learning from their  expiriences was good.</b> <br> In this chapter, the architecture of the whole project is analyzed. System analysis is the process of defining the architecture, components, and data of a system to satisfy specified requirements. Design is a method of  </p>
+
+
+        </div>
+        <div class="david">
+            <img src="davis.png" alt="">
+            <h1>David gatura</h1>
+            <h2>David@gatura</h2>
+            <p> <b> Such a life changing expirience Highly recommended!</b> <br>In this chapter, the architecture of the whole project is analyzed. System analysis is the process of defining the architecture, components, and data of a system to satisfy specified requirements. Design is a method of studying a system by examining its component parts and After gathering enough system requirements, the process of system implementation and actual coding will be commenced using </p>
+
+        </div>
+
+    </div>
+</body>
+</html>
+
+
+
+/* style.css*/
+
+
+
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color:#D8E5F6 ;
+}
+
+.container{
+    background-color:#EAF0F9;
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px 100px ;
+    column-gap: 10px;
+    row-gap: 10px;
+    height: auto;
+    width: 445px;
+    margin-top: 100px;
+    margin-right: 100px;
+    margin-left: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0.8;
+
+
+}
+
+
+.elizabeth{
+    display: grid;
+    
+    background-color: blueviolet;
+    grid-column:1/3 ;
+    color: white;
+    font-size: 7px;
+    margin-top: 40px;
+    width: 200px;
+    height: 150px;
+    margin-left: 10px;
+border-radius: 2ch;
+
+
+
+    h1{
+        display: grid;
+        font-size: 9px;
+        margin-top: -35px;
+        margin-left: 55px;
+    
+    }
+    h2{
+        font-size: 6px;
+        margin-top: -30px;
+        margin-left: 55px;
+
+    }
+
+    
+    p {
+        display: grid;
+        align-content: end; 
+        margin-left: 3px;
+        margin-right: 3px;
+   }
+
+   img{
+    width: 30px;
+    margin-left: 15px;
+    margin-top: 5px;
+    border-radius: 2cap;
+   }
+
+
+    
+}
+.mary{
+    display: grid;
+    background-color:grey;
+    grid-column: 3/4; 
+    color: white;
+    font-size: 9px;
+    margin-top: 40px;
+    width: 100px;
+    height: 150px;
+    border-radius: 2ch;
+    p{
+        display: grid;
+        align-content: end;
+        margin-left: 4px;
+        margin-right:4px;
+    }
+    img{
+        width: 30px;
+        margin-left: 15px;
+        margin-top: 5px;
+        border-radius: 2cap;
+    }
+    h1{
+
+        font-size: 8px;
+        margin-top: -25px;
+        margin-left: 50px;
+    }
+    h2{
+
+        font-size: 7px;
+        margin-top: -20px;
+        margin-left: 50px;
+    }
+    
+
+}
+
+.sam{
+    display: grid;
+    background-color: white;
+    grid-column:2/1;
+    font-size: 9px;
+    margin-bottom: 40px;
+    width: 100px;
+    height:150px ;
+    margin-right: 5px;
+    margin-left: 10px;
+    border-radius: 2ch;
+
+    h1{
+        font-size: 8px;
+        margin-top: -25px;
+        margin-left: 55px;
+
+    }
+
+    h2{
+        font-size: 7px;
+        margin-left: 55px;
+        margin-top: -15px;
+    }
+
+
+    p{
+        display: grid;
+        align-content: end;
+        margin-left: 3px;
+        margin-right: 3px;
+    }
+
+    img{
+        width: 30px;
+        margin-left: 15px;
+        margin-top: 5px;
+        border-radius: 2cap;
+    }
+
+}   
+.joy{
+    display: grid;
+    background-color: black;
+    grid-column: 2/4;
+    color: white;
+    font-size: 9px;
+    margin-bottom: 40px;
+    margin-left: 10px;
+    height: 150px;
+    border-radius: 2ch;
+
+    h1{
+        font-size: 8px;
+        margin-left: 50px;
+        margin-top: -25px;
+        
+    }
+    h2{
+        font-size: 7px;
+        margin-left: 50px;
+        margin-top: -15px;
+    }
+
+
+    p{
+        display: grid;
+        align-content: end;
+        margin-left: 4px;
+        margin-right: 4px;
+    }
+
+    img{
+        width: 30px;
+        margin-left: 15px;
+        margin-top: 5px;
+        border-radius: 2cap;
+    }
+
+}
+.david{
+    display: grid;
+    background-color:white;
+    grid-column: 4/5;
+    grid-row: 1/3;
+    font-size: 9px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-radius: 2ch;
+
+    p{
+        display:grid;
+        align-content: end;
+        margin-left:5px;
+        margin-right: 4px;
+    }
+
+    img{
+        width: 30px;
+        margin-left: 15px;
+        margin-top: 5px;
+        border-radius:2cap;
+        border-color:black;
+    }
+    h1{
+        font-size: 8px;
+        margin-left: 50px;
+        margin-top: -30px;
+    }
+    h2{
+        font-size: 7px;
+        margin-left: 50px;
+        margin-top: -25px;
+    }
+
+}
