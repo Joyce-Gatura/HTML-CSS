@@ -1,0 +1,173 @@
+<!-- index.html-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Flexbox Cards </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1> CSS Flexbox Cards </h1> 
+        </div>
+        <div class="cards">
+        <div class="angular"> 
+            <img src="angular logo.png" alt="">
+            <h1>Angular</h1>
+            <p> <b> Angular is a platform for building mobile and  desktop web applications join the community of millions of developers who build comelling user interfaces with angular </b></p>
+        </div>
+        <div class="React">
+            <img src="react icon.png" alt="">
+            <h1>React</h1>
+            <p> <b> React is an open source,front end ,JavaScript library for building user interfaces or UI components. it is maintained by facebook and a community of individuals developers and companies.</b></p>
+        </div>
+        <div class="vue">
+            <img src="vue icon.jpg" alt="">
+            <h1>Vue</h1>
+            <p> <b> Vue is a progressive framework for building user interfaces. unlike other monolithic frameworks, vue id designed from the ground up to be incrementally adaptable.</b> </p>
+        </div>
+    </div>
+        
+          
+
+    </div>
+</body>
+</html>
+
+
+
+/*style.css*/
+
+
+
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color:white;
+
+}
+.container{
+    height: 500px;
+    width: 700px;
+    background-color: orange;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0.7;
+
+    
+
+    
+
+}
+.header{
+   
+    background-color;
+    font-size:25px;
+    font-family: Roboto;
+    width: 600px;
+    text-align: center;
+    font: weight 800px;;
+}
+.cards{
+
+    display: grid;
+    grid-template-columns: 150px 150px 150px;
+    grid-column-gap: 20px;
+    font-size: 10px;
+    margin-left: 70px;
+}
+.angular{
+    
+    background-color: white;
+    display: grid;
+    border-radius: 1ch;
+    height: 95%;
+    width: 160px;
+
+    p{
+        display: grid;
+        align-items:flex-end;
+        margin-left: 10px;
+        margin-bottom: 40px;
+        margin-right: 8px;
+
+
+
+ 
+    }
+    img{
+        width: 80px;
+        margin-left: 30px;
+       margin-top: 20px;
+    }
+    h1{
+
+        margin-left: 30px;
+        font-family: Roboto;
+    }
+
+
+}
+
+
+.React{
+    background-color:white;
+    display: grid;
+    border-radius: 1ch;
+    align-items: flex-end;
+    height: 95%;
+    width: 160px;
+    img{
+        width: 80px;
+        margin-left: 40px;
+        margin-top: 20px;
+       
+    }
+    h1{
+        margin-left: 48px;
+        font-family: Roboto;
+    }
+    p{
+        margin-left: 10px;
+        margin-right: 6px;
+        margin-bottom: 29px;
+    }
+
+
+}
+
+.vue{background-color: white;
+    display: grid;
+    border-radius: 1ch;
+    align-items: flex-end;
+    height: 95%;
+    width: 160px;
+    img{
+        width: 80px;
+        margin-left: 43px;
+        margin-top: 20px;
+        
+    }
+    h1{
+        
+        margin-left:60px ;
+        margin-bottom: 10px;
+        font-family: Roboto;
+    }
+    p{
+         margin-left: 13px;
+         margin-bottom: 40px;
+         margin-right: 8px;
+         
+    }
+
+
+}
+
